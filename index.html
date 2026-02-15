@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Final Project </title>
+    <link rel="icon" href="./pikachu.jpg"><!--Favicon-->
+</head>
+<body>
+    <!--Semantic HTML-->
+    <hr>
+     <header> <h1>MY FAVOURITE FLOWER</h1>
+        <p>Published on: <time datetime="2026-02-08">February 8, 2026</time></p>
+        <nav><h3>Navigation links</h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <main>
+        <h1>TULIPS</h1><!--H1-H6 TAGS-->
+        <article>
+                Tulips are perennial, bulb-forming spring flowers (genus Tulipa) in the lily family, 
+                renowned for their cup-shaped blooms in nearly every color, including deep purples and near-black.
+                Native to Central Asia, they became a cultural symbol in the Ottoman Empire before creating a massive 
+                "<b>tulip mania</b>" economic bubble in the 17th-century Netherlands. They are popular garden plants requiring 
+                autumn planting and well-drained soil, with over 3,000 cultivated varieties.
+                <br>
+                <br>
+        </article>
+        <br>
+        <hr>
+        <aside><h3>Aside</h3>
+            Tulips are spring-blooming perennial herbaceous bulbiferous geophytes in the Tulipa genus. Their flowers are usually 
+            large, showy, and brightly coloured, generally red, orange, pink, yellow, or white. They often have a different coloured 
+            blotch at the base of the tepals, internally.
+        </aside>
+        <br>
+        <hr>
+        <section>
+            <br><h3>Article 2</h3>
+            <article>
+                <!--List-->
+                <h2>Key Characteristics and Facts</h2>
+                <ul style="list-style-type: square">
+                <li>Appearance: Usually, one bell-shaped flower grows per stem, with two to six thick, bluish-green leaves.</li>
+                <li>Varieties: There are numerous types, including Single Early, Double (peony-flowering), Parrot (ruffled), and Fringe tulips.</li>
+                <li>Colors: Available in red, yellow, purple, white, pink, orange, and near-black (e.g., 'Queen of the Night').</li>
+                <li>Cultivation: Bulbs should be planted in autumn for spring blooms, thriving in sunny, well-drained locations.</li>
+                <li>Symbolism: Generally symbolize perfect, deep love, but also represent renewal (Persian/Turkish tradition) and wealth. </li>
+                </ul>
+                <br>
+                <hr>
+                <h2>History and Significance</h2>
+                <ol type="I">
+                <li>Origins: Originally from the harsh climates of Central Asia, they were cultivated by the Ottomans from the 10th to 16th centuries.</li>
+                <li>Tulip Mania: In the 1630s, the Netherlands experienced a speculative bubble where single bulbs sold for more than a house.</li>
+                <li>Modern Industry: The Netherlands remains the world's largest producer and exporter of tulips. </li>
+                </ol>
+            </article>
+            <br>
+            <article> 
+                <<!--Images-->
+                <img src="./tulip.jpg"alt="Tulip"height="200px" width="300px"><br>
+                <img src="./tulip da.jpg"alt="Tulip"height="200px" width="300px"><br>
+                <img src="https://www.thespruce.com/thmb/TsI3yNclW-R2QcFTFai5m99iQaY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tulip-types-for-spring-garden-1315804-hero-5c10c927e00c459eb24c702be447e50d.jpg"height="200px" width="300px"><br>
+            </article>
+            <!--Paragraph tag-->
+            <p>
+                <!--links-->
+                <h2>For Additional Information</h2>
+                <a href="https://en.wikipedia.org/wiki/Tulip"target="_blank">Wikipedia</a><br>
+                <a href="https://www.britannica.com/plant/tulip"target="_blank">Britannica</a><br>
+
+            </p>
+
+            <!--media-->
+
+            <article>
+                <!-- Iframe YouTube -->
+             <iframe width="560px" height="315px" src="https://www.youtube.com/embed/yicHmCVxmNQ?si=BsltJi282zVfYROO"
+             frameborder="0" allowfullscreen></iframe>
+            </article>
+            <br>
+        </section>
+        <br>
+        <hr>
+        <!-- Form Section -->
+        <section>
+            <h2>User Registration Form</h2>
+            <form>
+                
+                    <b>Personal Information</b>
+                    <br>
+
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname"placeholder="First Name" required><br>
+                    <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Email"required><br>
+                    <br>
+
+                    <label for="bday">Date of Birth:</label>
+                    <input type="date" id="bday" name="bday" placeholder="Date of Birth"required><br>
+                    <br>
+
+                    <label for="phone no. ">Phone Number:</label>
+                    <input type="number" id="phone no." name="phone no." placeholder="Phone Number" required><br>
+                    <br>
+
+                    <label>Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="transgender" name="gender" value="transgender">
+                    <label for="transgender">Transgender</label><br>
+                    <br>
+
+                    <label for="course">Course Selection :</label>
+                    <input type="radio" name="course" value="C Foundation Bootcamp.">C Foundation Bootcamp
+                    <input type="radio" name="course" value="Web Development Bootcamp.">Web Development Bootcamp 
+                    <input type="ratio" name="course" value="HTML Foundation Bootcamp ">HTML Foundation Bootcamp
+                    <br>
+
+                    <input type="checkbox" name="terms" id="terms" required> I agree to the terms and conditions <br>
+                    <br>
+
+                    <input type="submit" value="Register Now"><br>
+                    <br>
+
+                    <input type="reset" value="Clear Form"><br>
+                    <br>
+
+                    </input>
+            </form>
+        </section>
+
+
+         <!-- Table Section -->
+        <section>
+            <h2>Topic Completion Status</h2>
+            <table border="2" >
+                <caption>Mandatory Topic</caption>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Topic</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>HTML Basics</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>HTML Document Structure & Text Content & Formatting</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Links & Images</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Lists & Tables</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Forms & Input Elements</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Semantic Tags & Media</td>
+                        <td>Completed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+   
+  
+    <!-- Footer Section -->
+    <footer>
+        <div>   
+        <hr>
+        <p>@copyright by User</p> 
+        <p>HTML Project. All rights reserved.</p>
+        <br>
+            <p>Privacy Policy 
+                <span About us</span> 
+                support 24/7.
+            </p>
+            <input type="text">
+        </div>
+    </footer>
+    <hr>
+    <hr>
+</body>
+</html>
