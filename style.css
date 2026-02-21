@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(230, 194, 211);
+}
+
+h1{
+    color: rgb(144, 59, 109);
+    text-align: center;
+}
+/*Class Selector (.className)*/
+.text{
+    color:rgb(46, 62, 143);
+    font-size: 50px;
+    font-family: Verdana;
+}
+
+.text-span{
+    font-size: 28px;
+    background-color: rgb(133, 54, 206);
+    padding: 10px; 
+    margin: 10px; 
+}
+p{
+    font-size: 30px;
+}
+/*Id Selector (#idName)*/
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#anBtn{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(120, 185, 142);
+    color: rgb(137, 95, 95);
+}
+
+
+/*Group Selector (multiple Tags)*/
+
+span{
+    font-size: 24px;
+    color: rgb(11, 25, 22);
+    border-bottom: 2px solid rgb(158, 126, 95);
+}
+section{
+    text-align: center;
+    color: #665e5e;
+
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #3a030b;
+}
